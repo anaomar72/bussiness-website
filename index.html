@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="bg-yellow-800 py-4">
+    <nav class="container mx-auto flex justify-between items-center">
+      <a href="#" class="text-white font-bold text-xl">Anab</a>
+      <ul class="flex space-x-4 text-white">
+        <li><a href="#" class="hover:text-gray-300">Home</a></li>
+        <li><a href="#" class="hover:text-gray-300">About</a></li>
+        <li><a href="#" class="hover:text-gray-300">Services</a></li>
+        <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container mx-auto py-10">
+    <section class="text-center">
+      <h1 class="text-4xl font-bold">Welcome to our Business Website</h1>
+      <p class="mt-4 text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor tortor ut
+        egestas.</p>
+      <a href="#" class="mt-10 px-6 py-3 bg-blue-500 text-white font-bold rounded hover:bg-blue-600">Get Started</a>
+    </section>
+
+    <section class="mt-10 grid grid-cols-1 gap-10 md:grid-cols-3">
+      <div class="bg-white p-6 rounded shadow">
+        <h2 class="text-2xl font-bold">Service 1</h2>
+        <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor tortor ut egestas.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+        <h2 class="text-2xl font-bold">Service 2</h2>
+        <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor tortor ut egestas.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+        <h2 class="text-2xl font-bold">Service 3</h2>
+        <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor tortor ut egestas.</p>
+      </div>
+    </section>
+
+    <section class="mt-10">
+      <h2 class="text-3xl font-bold">About Us</h2>
+      <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor tortor ut egestas.</p>
+    </section>
+
+    <section class="mt-10">
+      <h2 class="text-3xl font-bold">Contact Us</h2>
+      <form class="mt-4">
+        <div class="grid grid-cols-2 gap-4">
+          <input type="text" placeholder="Name" class="p-2 border border-gray-300 rounded">
+          <input type="email" placeholder="Email" class="p-2 border border-gray-300 rounded">
+        </div>
+        <textarea placeholder="Message" class="mt-4 p-2 border border-gray-300 rounded"></textarea>
+        <button type="submit" class="mt-4 px-6 py-3 bg-blue-500 text-white font-bold rounded hover:bg-blue-600">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="bg-yellow-800 py-4 text-white text-center">
+    <p>&copy; 2022 Business Website. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
